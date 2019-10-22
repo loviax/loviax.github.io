@@ -19,13 +19,15 @@ html {
 
 body{
   background-color: #2F4454;
+  
 }
 
 
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("C:\Users\louis\Desktop\loviax.github.io\img\cameras-black-background_23-2147852501.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/cameras-black-background_23-2147852501.jpg");
+  
 
   /* Set a specific height */
   height: 50%;
@@ -48,7 +50,6 @@ body{
 }
 header{
 background-color:#2E151B;
-background-image: image(C:\Users\louis\Desktop\loviax.github.io\img\cameras-black-background_23-2147852501.jpg);
   text-align: center;
   height: 500px;
   margin: 0px 40px 40px 40px;

@@ -137,14 +137,6 @@ font-size: 52px;
 
 }
 
-footer{
-  position: fixed;
-  background-color: #1C3334;
-  width: 100%;
-  color: whitesmoke;
-  left:0;
-  bottom:0;
-}
 
 .om_oss_textruta{
   color:whitesmoke;
@@ -161,6 +153,7 @@ footer{
   align-items: center;
   justify-content: center;
  margin-bottom: 10px;
+ margin-top: 40px;
 }
 
 
@@ -176,8 +169,36 @@ footer{
 
 }
 
+.flex_container{
+width:100%;
+min-height: calc(100vh - 142px);
+display: flex;
+/*align-items: stretch;*/
 
+}
 
+.flex_container section{
+  width:50%;
+  text-align: center;
+}
+
+#container_right{
+background-color: #2E151B;
+align-self: stretch;
+}
+
+.flex_container label , .flex_container input, .flex_container textarea{
+  display: block;
+  margin: 10px auto;
+}
+
+#container_left{
+  align-self: center;
+}
+
+#container_left, #container_left a{
+  color: black;
+}
 
 
 /*

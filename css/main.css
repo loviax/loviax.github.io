@@ -45,9 +45,6 @@ justify-content: space-between;
 }
 
 .wrapper{
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content:flex-end;
   background-color:#1C3334 ;
   margin:0;
   margin-right:20px;
@@ -55,10 +52,7 @@ justify-content: space-between;
   margin-top:0px; 
   align-content: space-between;
 }
-.items{
-    order:2;
-    flex-grow: inherit;
-  }
+
  
 
 .header_button {

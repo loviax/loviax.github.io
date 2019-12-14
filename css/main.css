@@ -54,12 +54,12 @@ justify-content: space-between;
   padding:0;
   margin-top:0px; 
   align-content: space-between;
-
-  .items{
+}
+.items{
     order:2;
   }
  
-}
+
 .header_button {
   margin-top:30px;
   margin-right: 20px;

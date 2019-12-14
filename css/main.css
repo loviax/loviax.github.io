@@ -237,6 +237,7 @@ align-self: stretch;
 
 .center{
   text-align: center;
+  color:black; 
 }
 
 .submit_button {

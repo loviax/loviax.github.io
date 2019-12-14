@@ -55,6 +55,9 @@ justify-content: space-between;
   margin-top:0px; 
   align-content: space-between;
 
+  .items{
+    order:2;
+  }
  
 }
 .header_button {

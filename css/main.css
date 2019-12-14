@@ -57,6 +57,7 @@ justify-content: space-between;
 }
 .items{
     order:2;
+    flex-grow: inherit;
   }
  
 
